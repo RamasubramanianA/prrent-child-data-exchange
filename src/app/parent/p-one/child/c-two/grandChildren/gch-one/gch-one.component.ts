@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-gch-one',
-  templateUrl: './gch-one.component.html',
-  styleUrls: ['./gch-one.component.css']
+  selector: "app-c2-gch-one",
+  templateUrl: "./gch-one.component.html",
+  styleUrls: ["./gch-one.component.css"]
 })
-export class GchOneComponent implements OnInit {
+export class C2GchOneComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
